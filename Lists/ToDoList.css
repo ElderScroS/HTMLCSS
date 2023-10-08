@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    left: 30%;
+    background-color: #e4f1f1;
+    width: 500px;
+    height: 430px;
+}
+
+span {
+    display: block;
+    margin-top: 15px;
+    margin-left: 1.7%;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.list {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 470px;
+    list-style-type: none;
+}
+
+.f-color {
+    height: 30px;
+    background-color: #93bfcfce;
+}
+.f-color p {
+    padding: 3px;
+}
+
+.s-color {
+    height: 30px;
+    background-color: #d2dbdea6;
+}
+.s-color p {
+    padding: 3px;
+}
+
+.t-color {
+    height: 30px;
+    background-color: #98ccdfa7;
+}
+.t-color p {
+    padding: 3px;
+}

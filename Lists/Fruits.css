@@ -1,0 +1,30 @@
+.fruits {
+    display: block;
+    left: 40%;
+    align-items: left;
+    justify-content: space-between;
+    height: 255px;
+    width: 350px;
+    background-color: #cb8c99;
+    position: absolute;
+}
+
+li {
+    color: #ededed;
+    width: 345px;
+    padding-left: 0px;
+    padding-top: 9px;
+    height: 30px;
+    background-color: #a35162;
+    margin-top: 10px;
+}
+
+li span {
+    color: #ededed;
+    padding-top: 10px;
+    padding-bottom: 10.5px;
+    padding-left: 10.5px;
+    padding-right: 10.5px;
+    vertical-align: middle;
+    background-color: #7b3342;
+}

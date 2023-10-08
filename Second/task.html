@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
+
+        <title>Questionnaire</title>
+<style>
+    form
+    {
+        max-width: 500px;
+        margin: auto;
+    }
+    label 
+    {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    input[type="text"], input[type="email"], select,
+    textarea 
+    {
+        width: 15%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    input[type="submit"]
+    {
+        background-color: #293729;
+        text-align: center;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    input[type="submit"]:hover
+    {
+        text-align: center;
+        background-color: #293729;
+    }
+</style>
+    </head>
+    <body style="text-align: left; font-size: x-large;">
+        <h1 style="text-align: center;">Questionnaire</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required>
+
+        <label for="paternity">Paternity:</label>
+        <input type="text" id="paternity" name="paternity" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Choose a Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="birth">Birth:</label>
+        <input type="date" id="birth" name="birth" required>
+
+        <label for="hobby">Hobby:</label>
+        <input type="text" id="hobby" name="hobby">
+
+        <label for="color">Favourite Color:</label>
+        <input type="color" id="color" name="color">
+
+        <label for="about">About you:</label>
+        <textarea id="about" name="about" rows="5"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    </body>
+</html>
